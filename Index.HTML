@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.elfinanciero.com.mx/resizer/fdeRQWKTWmTOaLBLYPMkfCryKug=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/2UMROOX3TBHUFIYQHTQTJITNVI.jpeg');
+            background-size: cover;
+            color: #fff; /* Color del texto */
+        }
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        #header {
+            padding: 10px;
+            background-color: #333;
+            overflow: auto;
+        }
+        #logo {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+        }
+        #footer {
+            clear: both;
+            padding: 10px;
+            background-color: #333;
+            text-align: center;
+        }
+
+        /* Estilos para hacer el sitio responsivo */
+        @media (max-width: 768px) {
+            #container {
+                width: 90%;
+            }
+            #logo {
+                width: 80px;
+                height: 80px;
+                margin-right: 10px;
+            }
+        }
+
+        /* Letras en negritas */
+        h1, h2, h3, h4, h5, h6, p {
+            font-weight: bold;
+        }
+
+        /* Estilo para el enlace del video */
+        #body a {
+            color: #fff; /* Color del enlace */
+            text-decoration: none;
+        }
+        #body a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img src="https://img.freepik.com/premium-vector/rl-creative-logo_786241-840.jpg" alt="Logo del sitio" id="logo">
+            <h1>Mi Sitio Web</h1>
+        </div>
+        <div id="body">
+            <p>¡Bienvenido! enlace a un video de un servicio de streaming aqui abajo:</p>
+            <a href="https://www.youtube.com/watch?v=ChfDGjs9vKE&ab_channel=Star%2BLatinoam%C3%A9rica">Ver video</a>
+        </div>
+        <div id="footer">
+            <p>Curso: Conceptualización de servicios en la nube</p>
+            <p>Nombre: Bryan Roberto Luna Garcia</p>
+            <p>Código: 222959379</p>
+            <p>Correo de contacto: bryangarciaxx@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
